@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
 import UserService from "../services/UserService";
+import AuthService from "../services/AuthSerivce";
 import { formatError } from "../utils/formatError";
 class UserController {
   /**
@@ -37,6 +38,15 @@ class UserController {
       res.json(user);
     } catch (error) {
       res.status(400).json(formatError(error.message, 400));
+    }
+  }
+
+  async login(req: Request, res: Response) {
+    try {
+      const token = await AuthService.login(req.body);
+      res.json(token);
+    } catch (error) {
+      res.status(401).json(formatError(error.message, 401));
     }
   }
 }

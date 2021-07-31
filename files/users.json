@@ -1,72 +1,40 @@
 [
   {
     "id": 1,
-    "name": "George",
-    "password": "9470085002b630eaf24b01f300d2fedf",
+    "name": "Geordge",
+    "password": "2f8094a6ea89679853034609805c2ea8",
     "email": "23ssprd2d@assd2.com",
     "enabled": true
   },
   {
     "id": 2,
-    "name": "Alex",
-    "password": "abcdef",
-    "email": "asd@asd.com",
-    "enabled": false
-  },
-  {
-    "id": 3,
-    "name": "Alex",
-    "password": "e80b5017098950fc58aad83c8c14978e",
-    "email": "asd@asd2.com",
-    "enabled": false
+    "name": "Geordge",
+    "password": "2f8094a6ea89679853034609805c2ea8",
+    "email": "2g@assd2.com",
+    "enabled": true
   },
   {
     "id": 4,
-    "name": "George",
-    "password": "c361ee72f1559105051ffb9bac309c5a",
-    "email": "prd@assd2.com",
-    "enabled": true
+    "name": "Geordge",
+    "password": "2f8094a6ea89679853034609805c2ea8",
+    "email": "2g@assd2.com",
+    "enabled": true,
+    "token": null
   },
   {
     "id": 5,
     "name": "George",
-    "password": "c361ee72f1559105051ffb9bac309c5a",
-    "email": "prd2d@assd2.com",
-    "enabled": "cs"
-  },
-  {
-    "id": 6,
-    "name": "George",
-    "password": "c361ee72f1559105051ffb9bac309c5a",
-    "email": "sprd2d@assd2.com",
-    "enabled": "cs"
+    "password": "9470085002b630eaf24b01f300d2fedf",
+    "email": "2asfss3ssprd2d@assd2.com",
+    "enabled": true,
+    "token": null
   },
   {
     "id": 7,
     "name": "George",
-    "password": "c361ee72f1559105051ffb9bac309c5a",
-    "email": "ssprd2d@assd2.com",
-    "enabled": "cs"
-  },
-  {
-    "id": 8,
-    "name": "George",
-    "password": "c361ee72f1559105051ffb9bac309c5a",
-    "email": "sssprd2d@assd2.com",
-    "enabled": "cs"
-  },
-  {
-    "id": 9,
-    "name": "George",
-    "password": "c361ee72f1559105051ffb9bac309c5a",
-    "email": "2ssprd2d@assd2.com",
-    "enabled": true
-  },
-  {
-    "id": 11,
-    "name": "George",
-    "password": "c361ee72f1559105051ffb9bac309c5a",
-    "email": "23ssprd2d@assd2.com",
-    "enabled": true
+    "password": "0571749e2ac330a7455809c6b0e7af90",
+    "email": "abc@abc.com",
+    "enabled": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFiY0BhYmMuY29tIiwiaWF0IjoxNjI3NzUwMDEyLCJleHAiOjE2Mjc3NjQ0MTJ9.sW3U8a00Xh8w6wltCJrI2i4sNNBlfcjxX7bQYwWTezc"
   }
 ]

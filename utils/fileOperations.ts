@@ -14,7 +14,12 @@ export const parseFile = async () => {
     throw new Error(`Ошибка при чтении файла: ${error}`);
   }
   try {
-    users = JSON.parse(fileContent);
+    // Если users.json пустой
+    if (!fileContent.length) {
+      users = [];
+    } else {
+      users = JSON.parse(fileContent);
+    }
     return users;
   } catch (error) {
     throw new Error(`Ошибка при преобразовании из JSON: ${error}`);
@@ -34,3 +39,4 @@ export const writeToFile = async (users: User[]) => {
     throw new Error(`Ошибка при записи в файл: ${error}`);
   }
 };
+
